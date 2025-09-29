@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="datos.php" method="post">
+    <fieldset>
+            <legend><label for="mdatos"><h1>Formulario:</h1></label></legend>
+       <fieldset>
+        <legend><h2>Datos personales:</h2></legend>
+            <ul>
+                <li>Nombre:<input type="text" id="mdatos" name="mdatos" placeholder="Nombre"></li><br>
+                <li>Apellidos:<input type="text" id="mdatos" name="mdatos" placeholder="Apellidos"></li><br>
+            </ul>
+        </fieldset>    
+    
+        <fieldset>
+            <legend><h2>Ciudad:</h2></legend>
+            <Select name="select">
+             <option value="Ciudad">Selecciona</option>
+             <option value="">Cádiz</option>
+             <option value="">Huelva</option>
+             <option value="">Sevilla</option>
+             <option value="">Granada</option>
+             <option value="">Córdoba</option>
+             <option value="">Málaga</option>
+            <option value="">Almeria</option>
+             </Select>
+        </fieldset>
+        <fieldset>
+            <legend><h2>Preferencias:</h2></legend>
+            <input type="checkbox" id="pref" name="pref" value="Música">
+            <label for="pref">Música</label> <br>
+            <input type="checkbox" id="pref" name="pref" value="Deportes">
+            <label for="pref">Deportes</label> <br>
+            <input type="checkbox" id="pref" name="pref" value="Lectura">
+            <label for="pref">Lectura</label> <br>
+            <input type="checkbox" id="pref" name="pref" value="Teatro">
+            <label for="pref">Teatro</label>
+        </fieldset><br>
+      
+        <button type="submit" value="">Enviar</button>
+    </fieldset>
+    </form>
+</body>
+</html>
