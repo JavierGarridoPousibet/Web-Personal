@@ -6,33 +6,34 @@
     <title>Formulario</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="fondoformulario">
     <form action="datos.php" method="post">
-    <fieldset>
-            <legend><label for="mdatos"><h1>Formulario:</h1></label></legend>
-       <fieldset>
-        <legend><h2>Datos personales:</h2></legend>
+    <fieldset class="fieldset2">
+    <legend><label for="mdatos"><h1>Formulario:</h1></label></legend>
+        <fieldset class="fieldsetdatos">
+        <legend><h2 class="tituloformulario">Datos personales:</h2></legend>
             <ul>
                 <li>Nombre:<input type="text" id="mdatos" name="mdatos" placeholder="Nombre"></li><br>
                 <li>Apellidos:<input type="text" id="mdatos" name="mdatos" placeholder="Apellidos"></li><br>
+                <li>Ciudad: 
+                    <Select name="select">
+                            <option value="Ciudad">Selecciona</option>
+                            <option value="">Cádiz</option>
+                            <option value="">Huelva</option>
+                            <option value="">Sevilla</option>
+                            <option value="">Granada</option>
+                            <option value="">Córdoba</option>
+                            <option value="">Málaga</option>
+                            <option value="">Almeria</option>
+                            <option value="">Jaén</option>
+                    </Select>
+                </li>
             </ul>
         </fieldset>    
     
-        <fieldset>
-            <legend><h2>Ciudad:</h2></legend>
-            <Select name="select">
-             <option value="Ciudad">Selecciona</option>
-             <option value="">Cádiz</option>
-             <option value="">Huelva</option>
-             <option value="">Sevilla</option>
-             <option value="">Granada</option>
-             <option value="">Córdoba</option>
-             <option value="">Málaga</option>
-            <option value="">Almeria</option>
-             </Select>
-        </fieldset>
-        <fieldset>
-            <legend><h2>Preferencias:</h2></legend>
+
+        <fieldset class="fieldsetpreferencias">
+            <legend><h2 class="tituloformulario">Preferencias:</h2></legend>
             <input type="checkbox" id="pref" name="pref" value="Música">
             <label for="pref">Música</label> <br>
             <input type="checkbox" id="pref" name="pref" value="Deportes">
@@ -48,3 +49,4 @@
     </form>
 </body>
 </html>
+ 

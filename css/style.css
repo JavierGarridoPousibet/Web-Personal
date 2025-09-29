@@ -1,11 +1,46 @@
+/* Estilos del Index */
+
+.fieldset{border: 5px solid;}
+.tituloindex{color: rgb(183, 0, 0);}
+p{font-weight: bold;}
+li{font-weight: bold;}
+.datos{border: 3px outset black;}
+.educacion{border: 3px outset black;}
+.habilidades{border: 3px outset black;}
+.otros{border: 3px outset black;}
+.fondoindex{background-image: url("../img/fondoindex.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;}
+
+
+/* Estilos del formulario */
+
+.fieldset2{border: 5px solid;}
+.fieldsetdatos{border: 3px solid;}
+.fieldsetpreferencias{border: 3px solid;}
+.tituloformulario{color: rgb(208, 76, 0);}
+.fondoformulario{background-image: url("../img/fondoformulario.jpg");
+background-repeat: no-repeat;
+background-size: cover;}
+
+
+
+/* Estilos del horario */
+
 td {width: 100px; height: 50px ;}
+.horario{border:5px outset black; background-color: aliceblue;}
 .descanso{background-color: rgb(47, 220, 255);}
-.ip2{background-color: aquamarine;}
-.ingles{background-color: lightgoldenrodyellow;}
-.fundamentos{background-color: pink;}
-.sor{background-color: lightcoral;}
-.seguridad{background-color: lightblue;}
-.aw{background-color: burlywood;}
-.sr{background-color: lightsalmon;}
-.proyecto{background-color: rgb(146, 125, 125);;}
+.ip2{border:5px outset black; background-color: aquamarine;}
+.ingles{border:5px outset black; background-color: lightgoldenrodyellow;}
+.fundamentos{border:5px outset black; background-color: pink;}
+.sor{border:5px outset black; background-color: lightcoral;}
+.seguridad{border:5px outset black; background-color: lightblue;}
+.aw{border:5px outset black; background-color: burlywood;}
+.sr{border:5px outset black; background-color: lightsalmon;}
+.proyecto{border:5px outset black; background-color: rgb(146, 125, 125);;}
+.fondohorario{background-image: url("../img/fondohorario.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;}
 
