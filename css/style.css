@@ -28,7 +28,7 @@ background-size: cover;}
 
 /* Estilos del horario */
 
-td {width: 100px; height: 50px ;}
+td{width: 100px; height: 50px;}
 .horario{border:5px outset black; background-color: aliceblue;}
 .descanso{background-color: rgb(47, 220, 255);}
 .ip2{border:5px outset black; background-color: aquamarine;}
