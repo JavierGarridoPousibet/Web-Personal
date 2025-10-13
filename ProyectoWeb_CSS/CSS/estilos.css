@@ -37,13 +37,14 @@ p{  text-align: center;
     
 }
 
-.sobremi{
-    display: flex; 
-
-    /* Nota para el profesor: Mirando el comando display para el apartado de enlaces me fijé en los otros usos que tenía y se me ocurrio 
-    utilizar este para colocar el apartado de habilidades y educación una al lado del otro*/
-    
+.sobremi{ /*Efecto aplicado a educación y habilidades*/    
+    display: flex;  
 }
+
+/* Nota para el profesor: Mirando el comando display para el apartado de enlaces me fijé en los otros usos que tenía y se me ocurrio 
+utilizar este para colocar el apartado de habilidades y educación una al lado del otro*/
+
+
 
 .educacion{background-image: linear-gradient(45deg,#00cc58,#66ccff);
     flex: 1;
