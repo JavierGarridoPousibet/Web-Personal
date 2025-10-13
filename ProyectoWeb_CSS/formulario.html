@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <form action="datos.php" method="post">
+    <label for="mdatos"><h1 id="tituloformulario">Formulario:</h1></label>
+    <div class="formulario">
+        <h2>Datos personales:</h2>
+            
+                Nombre:<input type="text" id="mdatos" name="mdatos" placeholder="Nombre"><br>
+                Apellidos:<input type="text" id="mdatos" name="mdatos" placeholder="Apellidos"><br>
+                Ciudad: 
+                <Select name="select">
+                            <option value="Ciudad">Selecciona</option>
+                            <option value="">Cádiz</option>
+                            <option value="">Huelva</option>
+                            <option value="">Sevilla</option>
+                            <option value="">Granada</option>
+                            <option value="">Córdoba</option>
+                            <option value="">Málaga</option>
+                            <option value="">Almeria</option>
+                            <option value="">Jaén</option>
+                    </Select>
+        
+       
+        
+            <h2>Preferencias:</h2>
+                <div class="card"><input type="checkbox" id="pref1" name="pref" value="Música">
+                <label for="pref1">Música</label></div>
+                <div class="card"><input type="checkbox" id="pref2" name="pref" value="Deportes">
+                <label for="pref2">Deportes</label></div> 
+                <div class="card"> <input type="checkbox" id="pref3" name="pref" value="Lectura">
+                <label for="pref3">Lectura</label></div> 
+                <div class="card"><input type="checkbox" id="pref4" name="pref" value="Teatro">
+                <label for="pref4">Teatro</label></div> <br><br>
+        </div>
+    </div>
+    <div class="boton">
+        <button type="submit" value="" class="envio">Enviar</button>
+    </div>
+    </form>
+</body>
+</html>

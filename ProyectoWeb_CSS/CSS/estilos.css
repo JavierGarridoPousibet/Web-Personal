@@ -1,0 +1,225 @@
+/*Estilos general*/
+
+body{background-color: rgb(229, 183, 241);}
+
+h2{text-transform: uppercase;
+   text-align: center;
+   color: #450cef;
+   font-size: 25px;
+}
+
+
+
+/* Estilos del Index */
+
+body{background-color: rgb(229, 183, 241);}
+
+.cabecera{color: rgb(75, 1, 145);
+    background-image: linear-gradient(45deg,#00cc58,#66ccff);
+    text-align: center; 
+    font-size: 50px;
+    padding: 20px;
+    margin: -10px;
+}
+
+p{  text-align: center; 
+    color: #e4e4e4;
+    font-size: 20px;
+    text-decoration: solid;
+}
+
+    
+.datos{background-image: linear-gradient(45deg,#00cc58,#66ccff);
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 6px 8px 10px #0b5f12;
+    margin: 30px;
+    
+}
+
+.sobremi{
+    display: flex; 
+
+    /* Nota para el profesor: Mirando el comando display para el apartado de enlaces me fijé en los otros usos que tenía y se me ocurrio 
+    utilizar este para colocar el apartado de habilidades y educación una al lado del otro*/
+    
+}
+
+.educacion{background-image: linear-gradient(45deg,#00cc58,#66ccff);
+    flex: 1;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 6px 8px 10px #0b5f12;
+    margin: 20px;
+    
+}
+
+.habilidades{background-image: linear-gradient(45deg,#00cc58,#66ccff);
+    flex: 1;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 6px 8px 10px #0b5f12;
+    margin: 20px;
+    text-align: center;
+}
+
+.skill{
+    margin: 5px;
+    padding: 5px; 
+    text-decoration:underline;
+}
+
+.otros{background-image: linear-gradient(45deg,#00cc58,#66ccff);
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 6px 8px 10px #0b5f12;
+    margin: 20px;
+    text-align: center;
+}
+
+.enlaces{background-color:skyblue;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 20px;
+    transition: background-color 1s;
+    box-shadow: 4px 6px 8px #2f122b;
+   
+}
+
+.enlaces:hover{ 
+    background-color: greenyellow;
+    
+}
+
+/* No consigo aplicar la rotación a los enlaces, en el caso de las habilidades no hay ningun problema. */
+
+.enlaces:visited{
+    color: rgb(211, 6, 218);
+}
+
+
+
+
+#pie{background-color: #994545;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+
+/* Estilos del formulario */
+
+#tituloformulario{
+    
+    color: rgb(75, 1, 145);
+    background-image: linear-gradient(45deg,#00cc58,#66ccff);
+    text-align: center; 
+    font-size: 50px;
+    padding: 20px;
+    margin: -10px;
+}
+
+.formulario{color: rgb(251, 251, 251);
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,#00cc58,#66ccff);
+    text-align: center; 
+    padding: 20px;
+    margin: 30px;
+}
+
+
+
+.card{
+    color: aliceblue;
+    font-size: 20px;
+    background-color: #4ef3ff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
+    transition: background-color 1s, transform 2s;
+}
+
+.card:hover{
+    background-color: #77db2f;
+    transform: rotate(25deg);
+}
+.boton{
+    text-align:center;
+}
+
+.envio{
+    background-color: rgb(101, 0, 253);
+    border-radius: 5px; 
+    transition: 1s;
+}
+
+.envio:hover{
+    transform: scale(1.5);
+}
+
+/* Estilos del horario */
+
+.fondohorario{background-image: url("../img/fondoindex.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;}
+
+td{width: 100px; height: 50px;
+transition: 1s}
+
+.horario{border:5px outset black; background-color: aliceblue;}
+
+.descanso{background-color: rgb(47, 220, 255);}
+
+.ip2{border:5px outset black; background-color: aquamarine;}
+
+.ingles{border:5px outset black; background-color: lightgoldenrodyellow;}
+
+.fundamentos{border:5px outset black; background-color: pink;}
+
+.sor{border:5px outset black; background-color: lightcoral;}
+
+.seguridad{border:5px outset black; background-color: lightblue;}
+
+.aw{border:5px outset black; background-color: burlywood;}
+
+.sr{border:5px outset black; background-color: lightsalmon;}
+
+.proyecto{border:5px outset black; background-color: rgb(146, 125, 125);}
+
+.ip2:hover{
+    transform: scale(1.2)
+}
+
+.ingles:hover{
+    transform: scale(1.2)
+}
+
+.fundamentos:hover{
+    transform: scale(1.2)
+}
+
+.sor:hover{
+    transform: scale(1.2)
+}
+
+.seguridad:hover{
+    transform: scale(1.2)
+}
+
+.aw:hover{
+    transform: scale(1.2)
+}
+
+.sr:hover{
+    transform: scale(1.2)
+}
+
+.proyecto:hover{
+    transform: scale(1.2)
+}
