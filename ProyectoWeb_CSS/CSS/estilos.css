@@ -132,7 +132,8 @@ p{  text-align: center;
     margin: 30px;
 }
 
-
+/* He intentado aplicar un diseño para que la "caja" que contenia los datos y preferencias cubriese la mayor parte de la pantalla hacia abajo,
+ pero no he conseguido averiguar como. */
 
 .card{
     color: aliceblue;
