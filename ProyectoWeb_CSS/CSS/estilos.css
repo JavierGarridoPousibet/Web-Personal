@@ -94,7 +94,7 @@ p{  text-align: center;
     
 }
 
-/* No consigo aplicar la rotación a los enlaces, en el caso de las habilidades no hay ningun problema. */
+/* Creo que tengo el mismo problema que nos ocurria en clase, no consigo aplicar el efecto "transform: rotate()" a los enlaces */
 
 .enlaces:visited{
     color: rgb(211, 6, 218);
@@ -146,7 +146,7 @@ p{  text-align: center;
 
 .card:hover{
     background-color: #77db2f;
-    transform: rotate(25deg);
+    transform: rotate(25deg); /* En este caso si se aplica el efecto */
 }
 .boton{
     text-align:center;
